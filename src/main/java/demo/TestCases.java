@@ -51,42 +51,24 @@ public class TestCases {
 
     }
 
-    public void testCase01() {
-        System.out.println("start test case: search on amazon");
-        search_amazon amazon = new search_amazon();
-        amazon.search_amazon_on_google();
-        System.out.println();
+    public void testCase01() throws InterruptedException {
+        // System.out.println("start test case: search on amazon");
+        // search_amazon amazon = new search_amazon();
+        // amazon.search_amazon_on_google();
+        
+        System.out.println("Start test case: count of hyperlinks");
+        count_hyperlink link = new count_hyperlink();
+        link.hyperlink();
     }
 
-    // public void testCase02() {
-    //     System.out.println("Start test case: Automate search amazon test");
-    //     // Navigate to the URL https://google.com
-    //     driver.get("https://google.com");
-    //     // Locate the search bar and click Using Locator "XPath" //*[@name='q']
-    //     WebElement searchBar = driver.findElementByXPath("//*[@name='q']");
-    //     searchBar.click();
-    //     // send "amazon" word to search in the seaarch bar Using Locator "XPath"
-    //     // *[@name='q']
-    //     searchBar.sendKeys("amazon");
-    //     // click on the google search button using locator "xpath"
-    //     // (//input[@value='Google Search'])[2]
-    //     WebElement button = driver.findElementByXPath("(//input[@value='Google Search'])[2]");
-    //     JavascriptExecutor js = (JavascriptExecutor) driver;
-    //     js.executeScript("arguments[0].click();", button);
-    //     // button.click();
-    //     // check if "amazon.in" is displayed or not Using Locator "XPath"
-    //     // (//span[text()='Amazon.in'])[1]
-    //     boolean itsVisible = driver.findElementByXPath("(//span[text()='Amazon.in'])[1]").isDisplayed();
-    //     System.out.println(itsVisible);
-    // }
 
-    public void testCase03() {
-
+    public void testCase03() throws InterruptedException {
         // Navigate to the url https://in.bookmyshow.com/explore/home/chennai
         driver.get("https://in.bookmyshow.com/explore/home/chennai");
         // Search for all the links present and have them count and print Using Locator
         // "XPath" //a
         List<WebElement> links = driver.findElementsByXPath("//a");
+        Thread.sleep(2000);
         int count = links.size();
         System.out.println("Number of links present in the given page is:" + count);
     }
