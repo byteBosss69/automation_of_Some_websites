@@ -64,9 +64,13 @@ public class TestCases {
         // post_on_linkedin post = new post_on_linkedin();
         // post.postOnLinkedIn();
 
-        System.out.println("Start test case: Automate_google_name_links");
-        name_links name = new name_links();
-        name.googleNameLinks();
+        // System.out.println("Start test case: Automate_google_name_links");
+        // name_links name = new name_links();
+        // name.googleNameLinks();
+
+        System.out.println("start test case: Automate_the Image_urls");
+        image_urls image = new image_urls();
+        image.automateImageUrls();
     }
 
 
