@@ -30,6 +30,6 @@ public class App {
     }
 
     public static void main(String[] args) throws InterruptedException, MalformedURLException, AWTException {
-        new App().getGreeting();
+        new App().getGreeting();//main method invocation
     }
 }

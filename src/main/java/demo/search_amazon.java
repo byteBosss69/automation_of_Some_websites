@@ -9,7 +9,7 @@ public class search_amazon {
     ChromeDriver driver;
 
     public void search_amazon_on_google() {
-        System.out.println("Start test case: Automate search amazon test");
+        System.out.println("Start test case: search amazon on google test");
         this.driver = TestCases.TestCases();
         // Navigate to the URL https://google.com
         driver.get("https://google.com");

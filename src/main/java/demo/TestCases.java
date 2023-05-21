@@ -52,13 +52,13 @@ public class TestCases {
     }
 
     public void testCase01() throws InterruptedException {
-        // System.out.println("start test case: search on amazon");
-        // search_amazon amazon = new search_amazon();
-        // amazon.search_amazon_on_google();
+        System.out.println("start test case: search on amazon");
+        search_amazon amazon = new search_amazon();
+        amazon.search_amazon_on_google();
         
-        System.out.println("Start test case: count of hyperlinks");
-        count_hyperlink link = new count_hyperlink();
-        link.hyperlink();
+        // System.out.println("Start test case: count of hyperlinks");
+        // count_hyperlink link = new count_hyperlink();
+        // link.hyperlink();
     }
 
 
