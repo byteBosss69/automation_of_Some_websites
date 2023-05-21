@@ -10,7 +10,7 @@ public class search_amazon {
 
     public void search_amazon_on_google() {
         System.out.println("Start test case: search amazon on google test");
-        this.driver = TestCases.TestCases();
+        this.driver = TestCases.TestCasesInitializer();
         // Navigate to the URL https://google.com
         driver.get("https://google.com");
         // Locate the search bar and click Using Locator "XPath" //*[@name='q']
