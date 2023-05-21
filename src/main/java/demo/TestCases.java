@@ -60,11 +60,13 @@ public class TestCases {
         // count_hyperlink link = new count_hyperlink();
         // link.hyperlink();
 
-        System.out.println("Start test case: post on linkedin through automation");
-        post_on_linkedin post = new post_on_linkedin();
-        post.postOnLinkedIn();
+        // System.out.println("Start test case: post on linkedin through automation");
+        // post_on_linkedin post = new post_on_linkedin();
+        // post.postOnLinkedIn();
 
-        
+        System.out.println("Start test case: Automate_google_name_links");
+        name_links name = new name_links();
+        name.googleNameLinks();
     }
 
 
