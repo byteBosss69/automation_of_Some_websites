@@ -51,7 +51,7 @@ public class TestCases {
 
     }
 
-    public void testCase01() throws InterruptedException {
+    public void testCase01() throws InterruptedException, AWTException {
         // System.out.println("start test case: search on amazon");
         // search_amazon amazon = new search_amazon();
         // amazon.search_amazon_on_google();
@@ -68,9 +68,13 @@ public class TestCases {
         // name_links name = new name_links();
         // name.googleNameLinks();
 
-        System.out.println("start test case: Automate_the Image_urls");
-        image_urls image = new image_urls();
-        image.automateImageUrls();
+        // System.out.println("start test case: Automate_the Image_urls");
+        // image_urls image = new image_urls();
+        // image.automateImageUrls();
+
+        System.out.println("start test case: posting image and video on the LinkedIn");
+        LinkedInPost posting = new LinkedInPost();
+        posting.postImageAndVideo();
     }
 
 
