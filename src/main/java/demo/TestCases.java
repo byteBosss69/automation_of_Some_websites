@@ -76,9 +76,13 @@ public class TestCases {
         // LinkedInPost posting = new LinkedInPost();
         // posting.postImageAndVideo();
 
-        System.out.println("start test case: automate the frames");
-        frames f = new frames();
-        f.automateNestedFrames();
+        // System.out.println("start test case: automate the frames");
+        // frames f = new frames();
+        // f.automateNestedFrames();
+
+        System.out.println("start test case: automate the alert prompt");
+        alertPrompt p = new alertPrompt();
+        p.automateAlertPrompt();
     }
 
 
