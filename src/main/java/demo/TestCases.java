@@ -84,9 +84,13 @@ public class TestCases {
         // alertPrompt p = new alertPrompt();
         // p.automateAlertPrompt();
 
-        System.out.println("start test case: automate the imdb website");
-        imdb i = new imdb();
-        i.automateImdb();
+        // System.out.println("start test case: automate the imdb website");
+        // imdb i = new imdb();
+        // i.automateImdb();
+
+        System.out.println("start test case: automate the window handle");
+        window_handle handle = new window_handle();
+        handle.automateWindowHandle();
     }
 
 
