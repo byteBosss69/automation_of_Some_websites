@@ -80,9 +80,13 @@ public class TestCases {
         // frames f = new frames();
         // f.automateNestedFrames();
 
-        System.out.println("start test case: automate the alert prompt");
-        alertPrompt p = new alertPrompt();
-        p.automateAlertPrompt();
+        // System.out.println("start test case: automate the alert prompt");
+        // alertPrompt p = new alertPrompt();
+        // p.automateAlertPrompt();
+
+        System.out.println("start test case: automate the imdb website");
+        imdb i = new imdb();
+        i.automateImdb();
     }
 
 
