@@ -72,9 +72,13 @@ public class TestCases {
         // image_urls image = new image_urls();
         // image.automateImageUrls();
 
-        System.out.println("start test case: posting image and video on the LinkedIn");
-        LinkedInPost posting = new LinkedInPost();
-        posting.postImageAndVideo();
+        // System.out.println("start test case: posting image and video on the LinkedIn");
+        // LinkedInPost posting = new LinkedInPost();
+        // posting.postImageAndVideo();
+
+        System.out.println("start test case: automate the frames");
+        frames f = new frames();
+        f.automateNestedFrames();
     }
 
 
