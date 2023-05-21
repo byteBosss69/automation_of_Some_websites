@@ -56,8 +56,16 @@ public class TestCases {
         // search_amazon amazon = new search_amazon();
         // amazon.search_amazon_on_google();
         
-        System.out.println("Start test case: count of hyperlinks");
-        count_hyperlink link = new count_hyperlink();
-        link.hyperlink();
+        // System.out.println("Start test case: count of hyperlinks");
+        // count_hyperlink link = new count_hyperlink();
+        // link.hyperlink();
+
+        System.out.println("Start test case: post on linkedin through automation");
+        post_on_linkedin post = new post_on_linkedin();
+        post.postOnLinkedIn();
+
+        
     }
+
+
 }
